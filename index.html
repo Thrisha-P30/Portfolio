@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="portfolio.js"></script>
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Portfolio</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="images/photo.jpg" alt="Micheal Joy profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title" style="color: red;">Micheal Joy</h1>
+      <p class="section__text__p2">Frontend Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('/resume.pdf')">
+        Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="window.open('#contact')">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="images/linkdin.png" alt="My LinkedIn profile" class="icon"
+          onclick="window.open('https://linkedin.com/')" />
+        <img src="images/github.png" alt="My Github profile" class="icon"
+          onclick="window.open('https://github.com/')" />
+      </div>
+    </div>
+    <a href="#about">
+      <img src="images/arrow.png" alt="arrow" class="icon arrow">
+    </a>
+
+    
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title" style="color: red;">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="images/photo.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="images/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years <br />Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="images/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Bachelor of Technology</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a passionate Frontend Developer dedicated to crafting seamless user experiences and bringing creative
+            designs to life on the web. With a strong foundation in modern web technologies and a keen eye for design, I
+            thrive at the intersection of functionality and aesthetics.
+            I enjoy transforming complex problems into elegant, user-centric solutions through intuitive interfaces and
+            innovative ideas. My work is driven by a love for clean, efficient code and a constant desire to push the
+            boundaries of what's possible on the web.
+          </p>
+        </div>
+      </div>
+    </div>
+    <a href="#skills">
+      <img src="images/arrow.png" alt="arrow" class="icon arrow" >
+    </a>
+ 
+  </section>
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title" style="color: red;">Skills</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="skills-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>Advanced JavaScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>TypeScript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="skills-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="images/tick.jpg" alt="skills icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#projects">
+      <img src="images/arrow.png" alt="arrow" class="icon arrow">
+    </a>
+
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title" style="color: red;">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="images/2048 game.jpeg" alt="2048 Game" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">2048 Game</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="images/currency-converter.jpeg" alt="Currency-Converter" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Currency-Converter</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="images/dictionary.jpeg" alt="Dictionary" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Dictionary</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#contact">
+      <img src="images/arrow.png" alt="arrow" class="icon arrow">
+    </a>
+ 
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title" style="color: red;">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="images/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:examplemail@gmail.com">michealjoy@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="images/linkdin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <button id="scroll-to-top">Top</button>
+  
+</body>
+
+</html>
+
+
+
